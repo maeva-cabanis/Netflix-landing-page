@@ -1,0 +1,17 @@
+@media (max-width: 949px) {
+  .form-flex {
+  flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+
+  }
+}

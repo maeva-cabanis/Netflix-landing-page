@@ -1,0 +1,87 @@
+ul li {
+  position: relative;
+  display: block;
+}
+
+ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #303030;
+}
+
+ul li:active ul {
+  display: block;
+}
+
+ul li i {
+  float: right;
+  margin-right: 40px ;
+}
+
+.faq-list {
+  padding:0px;
+  overflow: hidden;
+  max-width: 815px;
+  width: 75%;
+  margin: 2em auto;
+}
+
+.faq-list-item {
+  overflow: hidden;
+  padding: 0.4em 2.2em 0.4em 1.2em;
+  margin: 0px 0px 8px 0px;
+  font-weight: 400;
+  position: relative;
+  width: 100%;
+  border: 0;
+  background-color: #303030;
+  text-align: left;
+  cursor: pointer;
+  line-height: 2;
+  font-size: 26px;
+}
+
+.fa-plus {
+  margin: 15px 60px;
+}
+
+.btn-try-2{
+  width: 200px;
+  background-color: #e50914;
+  background-image: linear-gradient(to bottom, #e50914, #db0510);
+  border: 1px solid #e50914;
+  color: white;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+  display: inline-block;
+  width: auto;
+  padding: 0px 1.6125rem;
+  font-size: 1.625rem;
+  min-height: 60px;
+  margin-bottom: 10px;
+}
+
+.faq-card-list h1 {
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  margin-top: none;
+}
+
+
+@media (max-width: 549px) {
+  .faq-card-list h1 {
+  font-size: 26px;
+  margin-top: none;
+  }
+  .faq-list-item {
+  font-size: 18px;
+  margin: 0px 0px 10px;
+  }
+  .faq-card {
+  padding-left: 0px;
+  padding-right: 0px;
+  }
+  .fa-plus {
+  margin: 15px 40px;
+  }
+}
